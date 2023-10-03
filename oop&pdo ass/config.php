@@ -21,7 +21,7 @@ try {
 
     
     foreach ($result as $row) {
-        echo $row['column_name'] . "<br>";
+        echo $row['name'] . "<br>";
     }
 } catch (PDOException $e) {
     echo "Error: " . $e->getMessage();
